@@ -4,6 +4,7 @@ import os
 import datetime
 from tqdm import tqdm
 import sentencepiece as spm
+import numpy as np
 
 
 class Chat:
