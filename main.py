@@ -119,10 +119,11 @@ if __name__ == "__main__":
     cwd = os.getcwd()
     config_name = "config.toml"
     try:
-        with open(f"{cwd}/{config_name}", "rb") as f:
+        with open(f"{cwd}\\{config_name}", "rb") as f:
             config_dict = tomli.load(f)
-    except tomli.TOMLDecodeError:
+    except tomli.TOMLDecodeError as e:
         print("Not a valid config file format.")
+        print(e)
         sys.exit()
 
     # create Chat object and get text from markdown file
