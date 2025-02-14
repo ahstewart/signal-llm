@@ -1,6 +1,0 @@
-chat_path = "C:\\Users\\ahste\\signal-data\\Signal"  # path to the directory housing all of the signal groups
-chat_name = "Everyone"  # name of the group chat to use
-convo_dropoff = 8  # number of hours between messages that constitutes a new conversation
-media_exclusions = ["https", ".jpeg", ".mp4", ".mp3", ".wav", ".jpg", ".gif", ".png", ".pdf"]
-system_prompt_template = "Your name is {}. You are in a group chat with the following members: {}. Each member's message to the group chat begins with their name. You participate in this group chat by responding to the messages from the other members."
-context_max = 4000 # maximum number of token a prompt can have
